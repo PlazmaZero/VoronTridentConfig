@@ -127,10 +127,3 @@ managed_services: crowsnest
 system_dependencies: system-dependencies.json
 virtualenv: ~/crowsnest-env
 requirements: requirements.txt
-
-[update_manager goose_purge]
-type: git_repo
-primary_branch: main
-path: ~/goose_purge_macro
-origin: https://github.com/Graylag-PD/Goose-Purge-Macro.git
-managed_services: klipper
